@@ -33,7 +33,9 @@ class Song
     hash = {}
     @@genre.each do |genre|
     binding.pry
-    
+      if !hash.contains? genre, hash[genre] += 1
+      else hash << genre
+      end
     end
   end
 
