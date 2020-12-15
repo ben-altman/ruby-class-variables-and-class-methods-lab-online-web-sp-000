@@ -35,7 +35,7 @@ class Song
 #    binding.pry
       if hash[genre]
         hash[genre] += 1
-      else 
+      else
         hash[genre] = 1
       end
     end
